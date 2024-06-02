@@ -1,0 +1,31 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Helvetica';
+	background: #212227;
+	color: #F6F7FC;
+	text-align: center;
+	font-size: 24px;
+}
+
+input {
+	min-width: 150px;
+	font-family: 'October Crow';
+}
+
+.grid {
+	width: 360px;
+	border: 1px solid #474954;
+	border-radius: 16px;
+	display: grid;
+	justify-content: center;
+	margin: 20px auto;
+}
+
+.box {
+	color: #F6F7FC;
+	background: #454750;
+	border-radius: 16px;
+	padding: 16px;
+	display: inline-block;
+}
